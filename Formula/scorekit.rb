@@ -20,20 +20,20 @@ class Scorekit < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/talkincode/scorekit/releases/download/v0.2.1/scorekit-aarch64-apple-darwin.tar.gz"
-      sha256 "36ddc69c642a83ca3990d9e5e7faaf2a158192f2ca9ff5ad97982ec4ef5ba6d4"
+      sha256 "b3a196ff9ad3518d45a4ac1f62d6fa9067d62606cc32439d198b6d46889cf8f7"
     else
       url "https://github.com/talkincode/scorekit/releases/download/v0.2.1/scorekit-x86_64-apple-darwin.tar.gz"
-      sha256 "f249518e31ebc3ff0dc58a9b3c7e7c6180c9ce29987675b7593f1ee9328f1e7e"
+      sha256 "5cff7a84467292b443eaadf981e4c35ea5f460ee1de5a71564293fa0a45eb3ee"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/talkincode/scorekit/releases/download/v0.2.1/scorekit-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "f696a04459008ca3efe828d0e1db2361ad7711c07c3ae6bfc8bdfef218ba163f"
+      sha256 "e3b70a357020c6893bf60e0ad765b8ddf732a3a58e20a5559ed7654131595ff1"
     else
       url "https://github.com/talkincode/scorekit/releases/download/v0.2.1/scorekit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c355bd13931fad35c8934509cf3f66a79e4022cb4edea9f8739ed066965bc204"
+      sha256 "c3ae3577ab2fa53ca0aca5e89775c7240848e0c0fe4d9d828a4a14d7f136e586"
     end
   end
 
