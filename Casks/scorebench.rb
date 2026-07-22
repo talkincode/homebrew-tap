@@ -1,14 +1,14 @@
 cask "scorebench" do
-  version "0.3.0"
+  version "0.3.2"
 
   on_arm do
-    sha256 "862a0caea08cb97fa85f6743cb0551eb375976816c25550af2423e3afd00e92b"
-    url "https://github.com/talkincode/scorebench/releases/download/v0.3.0/scorebench_0.3.0_aarch64.dmg"
+    sha256 "554d734126265373ff07f50e8ef795c6116bea82ce2d70a66c5c99ceed0f8b32"
+    url "https://github.com/talkincode/scorebench/releases/download/v0.3.2/scorebench_0.3.2_aarch64.dmg"
   end
 
   on_intel do
-    sha256 "a0b7b49f20d90c09d3b5018f64405eb9e63e721a6188b4752b98c8e7c5bed58f"
-    url "https://github.com/talkincode/scorebench/releases/download/v0.3.0/scorebench_0.3.0_x64.dmg"
+    sha256 "0938faf8bc816f5f353026cbbd320fa03c75668a14586f4c15c5cdbb19c413ed"
+    url "https://github.com/talkincode/scorebench/releases/download/v0.3.2/scorebench_0.3.2_x64.dmg"
   end
 
   name "scorebench"
