@@ -1,8 +1,10 @@
 class ScorekitSfizz < Formula
   desc "Offline SFZ renderer backend for scorekit (--renderer sfizz)"
   homepage "https://github.com/talkincode/scorekit"
-  url "https://github.com/sfztools/sfizz/archive/refs/tags/1.2.3.tar.gz"
-  sha256 "fc1d7864516546e237e7c6115dc76d187924af32ec8eafb97b03a7efec9aa49d"
+  # Official release tarball (bundles git submodules; the auto-generated
+  # archive/refs tarball does not, breaking vendored abseil/libaiff/wavpack).
+  url "https://github.com/sfztools/sfizz/releases/download/1.2.3/sfizz-1.2.3.tar.gz"
+  sha256 "a9339eac7620d7f0f6b44bdfe860680fab73e66efad4b5f15b21198dd9436822"
   license "BSD-2-Clause"
 
   depends_on "cmake" => :build
