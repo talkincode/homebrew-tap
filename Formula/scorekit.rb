@@ -1,7 +1,7 @@
 class Scorekit < Formula
   desc "Agent-oriented music compiler for game-ready loops and stems"
   homepage "https://github.com/talkincode/scorekit"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   depends_on "ffmpeg"
@@ -19,21 +19,21 @@ class Scorekit < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/scorekit/releases/download/v0.5.0/scorekit-aarch64-apple-darwin.tar.gz"
-      sha256 "68194616055e2ac657af39c831ad19a515280acb086b09fea71e9a59aa27f238"
+      url "https://github.com/talkincode/scorekit/releases/download/v0.6.0/scorekit-aarch64-apple-darwin.tar.gz"
+      sha256 "7608bd500e022108fb88ded23d543df4d23dc7f45fd1eb6a22affc4ec9ad2c95"
     else
-      url "https://github.com/talkincode/scorekit/releases/download/v0.5.0/scorekit-x86_64-apple-darwin.tar.gz"
-      sha256 "7c8e7cea3ee054af9636223999037cfe4615d63574eb2bec0eb223c360257277"
+      url "https://github.com/talkincode/scorekit/releases/download/v0.6.0/scorekit-x86_64-apple-darwin.tar.gz"
+      sha256 "12b3fcf2cc1664a9682a6e83b977387f09905eb61bff050ad794a410c161e330"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/scorekit/releases/download/v0.5.0/scorekit-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "e86ed6a09ecafcf3b03ceee122548c2a00b9a882e313318930078541ae7c258c"
+      url "https://github.com/talkincode/scorekit/releases/download/v0.6.0/scorekit-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "b416b52a25cda004a3fb81a1b6eae44a5e7eda82187a77e91cecf761490d2771"
     else
-      url "https://github.com/talkincode/scorekit/releases/download/v0.5.0/scorekit-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "6ef19d173dfd435586bd06609308a2b86cbb14b1b69d5fd7bba6d5e0eaf6c9e4"
+      url "https://github.com/talkincode/scorekit/releases/download/v0.6.0/scorekit-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "2e2fad63e0aba5116ad0b67936fefd09cfd2c51a9b6bc6d3c0b9cd598d26892f"
     end
   end
 
