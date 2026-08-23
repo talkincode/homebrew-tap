@@ -2,7 +2,7 @@ class Rove < Formula
   desc "Application network optimizer for Agent APIs and trading paths"
   homepage "https://github.com/talkincode/rove"
   url "https://github.com/talkincode/rove/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "7d80678bfc1a81098280f1507ed463288245ac67c69c7ea728cfca2211decb06"
+  sha256 "a25a4518b15885c7aa69fb73001a9684f4f2b9ef5f70404150985ff666db64c3"
   license "MIT"
   head "https://github.com/talkincode/rove.git", branch: "main"
 
