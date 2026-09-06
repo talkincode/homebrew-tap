@@ -7,20 +7,20 @@ class Imagine < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/talkincode/imagine/releases/download/v0.1.3/imagine-macos-aarch64.tar.gz"
-      sha256 "0ebd957fc75cf17047a5082b659c6a8d3caabe2ddbd099ca865fe51b25ea7f61"
+      sha256 "b52651dbc1a23c516498a41710db3608b00b993aba50ca1d62c4e073e71d1b2e"
     else
       url "https://github.com/talkincode/imagine/releases/download/v0.1.3/imagine-macos-x86_64.tar.gz"
-      sha256 "eebc1f28e01c069fd90f290146d072dfb07fb56ee38d9d964132cc9d232678f8"
+      sha256 "8036d709627908dc4c724ae96e0a9e93356205a89f3b92cc67bdda5532c6e372"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/talkincode/imagine/releases/download/v0.1.3/imagine-linux-aarch64.tar.gz"
-      sha256 "7cfe4047eb6ad4b3e62aa3cec5709952628ab3dc1212611722ca333d0b1e15e4"
+      sha256 "0f765c6a91d8e16cac98278794623a4475c68af627beaff80daa95a35f72f2c9"
     else
       url "https://github.com/talkincode/imagine/releases/download/v0.1.3/imagine-linux-x86_64.tar.gz"
-      sha256 "f7a4d494626b63bd1fc7db6bcdc21a66e5c88abb5a2b0d2f069605a4d56e799f"
+      sha256 "802c021a6cde43cfc628887b16a1e57e47d260ffd9dacd7f5291577462783cb8"
     end
   end
 
