@@ -25,7 +25,7 @@ class Imagine < Formula
   end
 
   def install
-    bin.install Dir["imagine-*"].find { |f| File.file?(f) && File.executable?(f) } => "imagine"
+    bin.install Dir["imagine-*"].find { |f| File.file?(f) && true } => "imagine"
     pkgshare.install "skills" if File.directory?("skills")
   end
 
