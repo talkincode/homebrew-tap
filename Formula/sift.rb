@@ -2,7 +2,7 @@ class Sift < Formula
   desc "Cost-controlled open-source project auditor"
   homepage "https://github.com/talkincode/sift"
   version "0.4.0"
-  license :cannot_represent
+  license "MIT"
   depends_on :macos
 
   on_macos do
