@@ -1,26 +1,26 @@
 class Sshx < Formula
   desc "Agent-native remote host execution over SSH"
   homepage "https://github.com/talkincode/sshx"
-  version "0.16.1"
+  version "0.17.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/sshx/releases/download/v0.16.1/sshx-darwin-arm64.tar.gz"
-      sha256 "059b1a4da5b6c9f14082c15bb443308abf88b87f25b095aedc8e7bd8d9c8804d"
+      url "https://github.com/talkincode/sshx/releases/download/v0.17.0/sshx-darwin-arm64.tar.gz"
+      sha256 "a4c5f65d6e268ea51bc055edfa7952ead72bafd2870d6671b40977bf08dff3e8"
     else
-      url "https://github.com/talkincode/sshx/releases/download/v0.16.1/sshx-darwin-amd64.tar.gz"
-      sha256 "3be759695045aead2043ca32703340a7e80a90d32fcf2d30b7e0bd881b56c756"
+      url "https://github.com/talkincode/sshx/releases/download/v0.17.0/sshx-darwin-amd64.tar.gz"
+      sha256 "e3daa5374469343656d527c806410a48c844fef9affb7fd624f91af6eb5826be"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/sshx/releases/download/v0.16.1/sshx-linux-arm64.tar.gz"
-      sha256 "7e03e621148d740b7793bf3ffc07497c4f47ed1765fdecb71cfbee62066e038d"
+      url "https://github.com/talkincode/sshx/releases/download/v0.17.0/sshx-linux-arm64.tar.gz"
+      sha256 "a937797b1138c62b21003ca9670d849fca9cafa54e27da19b6f076a4472f1794"
     else
-      url "https://github.com/talkincode/sshx/releases/download/v0.16.1/sshx-linux-amd64.tar.gz"
-      sha256 "8ca4802e7da513589c71ccf19640b2a4a78c116326f9d23501901979b9b3ef40"
+      url "https://github.com/talkincode/sshx/releases/download/v0.17.0/sshx-linux-amd64.tar.gz"
+      sha256 "322b05d57c554bb767bf75c419606cd21d5b3390cdac9a4cceeb29b0bbfab75a"
     end
   end
 
