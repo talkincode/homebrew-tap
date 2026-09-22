@@ -23,7 +23,7 @@ class Filmkit < Formula
         mkdir -p ~/.agents/skills
         cp -R #{opt_pkgshare}/skills/filmkit ~/.agents/skills/
 
-      filmkit composes with ffmpeg; check any project with .
+      filmkit composes with ffmpeg; check any project with "filmkit doctor".
     EOS
   end
 
