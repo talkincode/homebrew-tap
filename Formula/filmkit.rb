@@ -1,9 +1,9 @@
 class Filmkit < Formula
   desc "Agent-oriented video orchestration compiler"
   homepage "https://github.com/talkincode/filmkit"
-  url "https://github.com/talkincode/filmkit/releases/download/v0.2.0/filmkit-0.2.0.tar.gz"
-  sha256 "2200bef824f8b78df53a4c6f7adf9805dd7ffb233f104d06373f2dcc2602d059"
-  version "0.2.0"
+  url "https://github.com/talkincode/filmkit/releases/download/v0.3.0/filmkit-0.3.0.tar.gz"
+  sha256 "8d221296997327f742a544aa3aca58dd4576c483a98738f48e679e5a357b857e"
+  version "0.3.0"
   license "MIT"
 
   depends_on "bun"
@@ -23,7 +23,7 @@ class Filmkit < Formula
         mkdir -p ~/.agents/skills
         cp -R #{opt_pkgshare}/skills/filmkit ~/.agents/skills/
 
-      filmkit composes with ffmpeg; check any project with "filmkit doctor".
+      filmkit composes with ffmpeg; check any project with \"filmkit doctor\".
     EOS
   end
 
