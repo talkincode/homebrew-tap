@@ -1,26 +1,26 @@
 class Imagine < Formula
   desc "Universal image-generation CLI for AI agents"
   homepage "https://github.com/talkincode/imagine"
-  version "0.5.0"
+  version "0.6.0"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/imagine/releases/download/v0.5.0/imagine-macos-aarch64.tar.gz"
-      sha256 "f849144c99a2999955dd9e2aebe8b16f31599aeb81c070fa933bab067ca58da6"
+      url "https://github.com/talkincode/imagine/releases/download/v0.6.0/imagine-macos-aarch64.tar.gz"
+      sha256 "e510a7c6c0ea4f4867e96c3d4af188a81d1dfde14d4b7895d0ae05c6f306bebe"
     else
-      url "https://github.com/talkincode/imagine/releases/download/v0.5.0/imagine-macos-x86_64.tar.gz"
-      sha256 "2872d510922c54ab89f32a1666363b93513c02e8797f6b728f88c4c43e8dc51e"
+      url "https://github.com/talkincode/imagine/releases/download/v0.6.0/imagine-macos-x86_64.tar.gz"
+      sha256 "3ab3abe8871fd24680e7c0c79e134c7aa5dbbd68679578cdd0e3ff844d3d8c7f"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/talkincode/imagine/releases/download/v0.5.0/imagine-linux-aarch64.tar.gz"
-      sha256 "2726b4abf99f24a34b454f61917f233500b6be29ec4e427b342161de53afc5cc"
+      url "https://github.com/talkincode/imagine/releases/download/v0.6.0/imagine-linux-aarch64.tar.gz"
+      sha256 "beddfe5aba5df09718134e36e9c368a92e8dbb2153b6dc5aa3d457e95c0ca8b1"
     else
-      url "https://github.com/talkincode/imagine/releases/download/v0.5.0/imagine-linux-x86_64.tar.gz"
-      sha256 "388bfa81ea8d0ef5ef27da94c9cb1765ca53ea1f0a8829809c09c1760b8c2880"
+      url "https://github.com/talkincode/imagine/releases/download/v0.6.0/imagine-linux-x86_64.tar.gz"
+      sha256 "5ac3bedae625a9e23fc113df2455045da01e8c44c035c10f29f11786046c1ce5"
     end
   end
 
