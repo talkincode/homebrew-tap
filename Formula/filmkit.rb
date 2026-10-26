@@ -1,9 +1,9 @@
 class Filmkit < Formula
   desc "Agent-oriented video orchestration compiler"
   homepage "https://github.com/talkincode/filmkit"
-  url "https://github.com/talkincode/filmkit/releases/download/v0.7.2/filmkit-0.7.2.tar.gz"
-  sha256 "9877212e753c64a3319f4f70f73c22af20ffb6774df9bee9d25e1766a12b16f9"
-  version "0.7.2"
+  url "https://github.com/talkincode/filmkit/releases/download/v0.7.3/filmkit-0.7.3.tar.gz"
+  sha256 "2e3c1aef3cea6e77e0edfcc7ab240eef61fab442b8ad061a35ded1044daef695"
+  version "0.7.3"
   license "MIT"
 
   depends_on "bun"
